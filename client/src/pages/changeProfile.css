@@ -1,0 +1,65 @@
+
+
+
+.FormCard_Row1 {
+    display: flex;
+    flex-direction: row;
+    height: fit-content;
+    flex-wrap: wrap;
+
+}
+.FormCard_Row2 {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.FormControl {
+    display: flex;
+    width: 46%;
+    height: fit-content;
+    margin: 8px 10px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.FormControl label {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    text-align: right;
+    height: 35px;
+    width: 200px;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: var(--txt-color);
+}
+.FormControl input{
+    height: 35px;
+    width: 100%;
+    font-size: 1rem;
+    padding-left: 3px;
+    background-color: var(--second-bg);
+    border-radius: var(--border-radius);
+    box-shadow: var(--box-shadow);
+
+    color: var(--txt-color);
+}
+.green-color{
+    margin-top: 20px;
+    height: 40px;
+    width: 250px;
+    font-size: 1rem;
+    border-radius: var(--border-radius);
+
+}
+
+@media (max-width:900px){
+    .FormControl {
+        width: 100%;
+    }
+    .FormControl label {
+        width: 220px;
+    }
+}

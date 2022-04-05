@@ -1,0 +1,53 @@
+[
+    {
+        "display_name": "Dashboard",
+        "route": "/"
+    },
+    {
+        "display_name": "Network",
+        "route": "##",
+        "subNav": [
+            {
+                "display_name": "GenelogyTree",
+                "route": "/genelogyTree"
+            },
+            {
+                "display_name": "My Direct Team",
+                "route": "/myDirect"
+            }
+        ]
+    },
+    {
+        "display_name": "Distributor",
+        "route": "##",
+        "subNav": [
+            {
+                "display_name": "Change Profile",
+                "route": "/changeProfile"
+            },
+            {
+                "display_name": "Chanage Password",
+                "route": "/changePassword"
+            }
+        ]
+    },
+    {
+        "display_name": "Payment / Income",
+        "route": "##",
+        "subNav": [
+            {
+                "display_name": "Self Deposite Amount",
+                "route": "/selfDepositeAmount"
+            },
+            {
+                "display_name": "Team Deposite Amount",
+                "route": "/teamDepositeAmount"
+            },
+            {
+                "display_name": "Income Detail",
+                "route": "/incomeDetail"
+            }
+        ]
+    }
+    
+]
